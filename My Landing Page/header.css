@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+}
+.pre-nav-bar {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position:fixed;
+    
+}
+.free-website{
+    margin-right: auto;
+    margin-left: auto;
+    width:fit-content;
+    padding-bottom: 100%;
+}
+p{
+    color: white;
+    font-size: larger;
+    
+}
+.hire-me{
+    font-size: 25px;
+    border-color: black;
+    color: black;
+    background-color: yellow;
+    border-radius: 10px;
+   
+}
+.hire{
+   
+    padding: 0px 30px 100px 25% 
+}
+.hire-me:hover{
+    background-color: rgb(174, 174, 27);
+}
+.main-header{
+    width: 100%;
+    height: 600px;
+    background-color: yellow;
+    border-collapse: collapse;
+    margin-top: 100px;
+}
+.first-text{
+    font-size: 50px;
+   text-align: center;
+    color: black;
+    font-weight: 800;
+}
+.second-text{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+.suscribe{
+    height: 70px;
+    width: 300px;  
+    border-radius: 12px;
+    border-color: yellow;
+    font-size: 30px;
+}
+.form{
+    display: block;
+    text-align: center;
+    animation: slideIn ease-out 2s;
+
+}
+hr.header{
+    color: yellow;
+    background-color: yellow;
+    border: none
+}
+.submit{
+    margin-left: 40px ;
+    height: 80px;
+    width: 300px;
+    background-color: yellowgreen;
+    border-radius: 12px;
+    border-color: yellow;
+    font-size: 19px;
+    color:white;
+    font-weight: 700;
+}
+.third-text{
+    text-align: center;
+    color:black;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.logo{
+    z-index: 3;
+    display: block;
+    text-align: center;
+    font-size: 60px;
+}
+.image1{
+    width: 50px
+}
+.Paint-image{
+    display: block;
+    text-align: center;
+    animation: slideIn ease-out 2s;
+    opacity:1;  
+}
+
+
+@keyframes slideIn{
+    0%{
+        margin-left: 1000px;
+        opacity: 0;
+    }
+   
+    
+    100%{
+        margin-left: 0px;
+        opacity: 1;
+    }
+}
+.image-3{
+    width:60px;
+}
+.fourth-text{
+    color:black;
+    font-size: 30px;
+}
+.icon-div{
+    display: block;
+    text-align: center;
+}
+.image-4{
+    width:80px;
+    
+}
+.second-background-div{
+    background-color: white;
+    background-image: linear-gradient( to bottom right, white, white, white, rgb(238, 238, 75));
+    border: none;
+
+}
+.before-footer{
+    display:block;
+    text-align: center;
+}
+.image5{
+    width:100px;
+}
+.extra-background{
+    background-color: white;
+    background-image: linear-gradient( to top right, white, white, white, rgb(238, 238, 75));
+    border: none;
+}
+.footer{
+    width:100%;
+    height: 300px;
+    background-color: yellow;
+}
+.attributes{
+    text-align: center;
+font-size: 30px;
+}
+a:link{
+  color: black;
+  text-decoration: none;
+    
+}
+a:hover{
+    color: yellowgreen;
+    text-decoration: none;
+
+      
+  }
